@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/TitleIcon"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/TextView"
+                style="@style/TitleText"
+                android:text="@string/main_title" />
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/ComponentTitle">
+
+                    <TextView
+                        style="@style/TitleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="오늘의 팁"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/component_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                        <LinearLayout
+                            android:id="@+id/dynamicArea3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp">
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="팁 목록" />
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/ComponentTitle">
+
+                    <TextView
+                        style="@style/TitleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="팁 목록"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/component_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/component_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textView_1"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="흡연과 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_2"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="흡연과 수면 장애" />
+
+                            <TextView
+                                android:id="@+id/textView_3"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="음주와 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_4"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="카페인과 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_5"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="카페인과 수면 장애" />
+
+                            <TextView
+                                android:id="@+id/textView_6"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="불면증" />
+
+                            <TextView
+                                android:id="@+id/textView_7"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="과다 수면증" />
+
+                            <TextView
+                                android:id="@+id/textView_8"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 각성 주기장애" />
+
+                            <TextView
+                                android:id="@+id/textView_9"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면과 코골이, 수면 무호흡증" />
+
+                            <TextView
+                                android:id="@+id/textView_10"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="하지 불안 증후군, 주기성 사지 운동증" />
+
+                            <TextView
+                                android:id="@+id/textView_11"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 전 섭취와 수면 장애" />
+
+                            <TextView
+                                android:id="@+id/textView_12"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="식사 시간" />
+
+                            <TextView
+                                android:id="@+id/textView_13"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="생체 주기 조절에 좋은 식품" />
+
+                            <TextView
+                                android:id="@+id/textView_14"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="규칙적인 수면 시간" />
+
+                            <TextView
+                                android:id="@+id/textView_15"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="낮잠" />
+
+                            <TextView
+                                android:id="@+id/textView_16"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 전 전자기기 사용" />
+
+                            <TextView
+                                android:id="@+id/textView_17"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="식사와 알레르기" />
+
+                            <TextView
+                                android:id="@+id/textView_18"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 시 경련 증상" />
+
+                            <TextView
+                                android:id="@+id/textView_19"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="외로움과 수면" />
+
+                            <TextView
+                                android:id="@+id/textView_20"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="식사와 면역력" />
+
+                            <TextView
+                                android:id="@+id/textView_21"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="하루 중 감정의 변화" />
+
+                            <TextView
+                                android:id="@+id/textView_22"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="상처 치유와 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_23"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="장내 미생물 건강" />
+
+                            <TextView
+                                android:id="@+id/textView_24"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="위식도 역류 질환과 제산제" />
+
+                            <TextView
+                                android:id="@+id/textView_25"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="심장 질환과 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_26"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="운동과 생체시계" />
+
+                            <TextView
+                                android:id="@+id/textView_27"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="약 투약 시간과 빛 노출에 따른 약효" />
+                            <TextView
+                                android:id="@+id/textView_28"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="나이에 따라 달라지는 수면시간" />
+                            <TextView
+                                android:id="@+id/textView_29"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="정자와 생체시계" />
+                            <TextView
+                                android:id="@+id/textView_30"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="하루 중 감정의 변화" />
+                            <TextView
+                                android:id="@+id/textView_31"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="월경전 증후군(PMS)" />
+                            <TextView
+                                android:id="@+id/textView_32"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="월경통이 심한 경우" />
+                            <TextView
+                                android:id="@+id/textView_33"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="월경과다" />
+                            <TextView
+                                android:id="@+id/textView_34"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="무월경" />
+                            <TextView
+                                android:id="@+id/textView_35"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신 가능성이 높은 날" />
+                            <TextView
+                                android:id="@+id/textView_36"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="입덧" />
+                            <TextView
+                                android:id="@+id/textView_37"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신과 빈혈" />
+                            <TextView
+                                android:id="@+id/textView_38"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신과 변비" />
+                            <TextView
+                                android:id="@+id/textView_39"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신 중독증" />
+                            <TextView
+                                android:id="@+id/textView_40"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신성 고혈압" />
+                            <TextView
+                                android:id="@+id/textView_41"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신성 당뇨병" />
+                            <TextView
+                                android:id="@+id/textView_42"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임산부 건강관리 지원" />
+                            <TextView
+                                android:id="@+id/textView_43"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="임신과 운동" />
+                            <TextView
+                                android:id="@+id/textView_44"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="산후조리" />
+                            <TextView
+                                android:id="@+id/textView_45"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="산후 영양 관리" />
+                            <TextView
+                                android:id="@+id/textView_46"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="갱년기 건강 관리" />
+                            <TextView
+                                android:id="@+id/textView_47"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="아침 식사하기" />
+                            <TextView
+                                android:id="@+id/textView_48"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="아침에 햇빛 쬐기" />
+                            <TextView
+                                android:id="@+id/textView_49"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="운동과 수면" />
+                            <TextView
+                                android:id="@+id/textView_50"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="몸을 따뜻하게 하기" />
+                            <TextView
+                                android:id="@+id/textView_51"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="조명과 수면" />
+                            <TextView
+                                android:id="@+id/textView_52"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="억지로 잠들기" />
+                            <TextView
+                                android:id="@+id/textView_53"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 관련 불편한 증상 발생 시" />
+                            <TextView
+                                android:id="@+id/textView_54"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 전 목마름" />
+                            <TextView
+                                android:id="@+id/textView_55"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 전 공복" />
+                            <TextView
+                                android:id="@+id/textView_56"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="수면 시 적정 온도/습도" />
+                            <TextView
+                                android:id="@+id/textView_57"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="춘곤증" />
+                            <TextView
+                                android:id="@+id/textView_58"
+                                style="@style/DialogueText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="계절성 정동 장애(SAD)" />
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

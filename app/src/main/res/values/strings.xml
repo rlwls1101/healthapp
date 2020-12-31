@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Capston_Project</string>
+    <string name="main_title">매일매일</string>
+    <string name="google_title">구글 계정으로 시작하기</string>
+    <string name="answer_positive">예</string>
+    <string name="answer_negative">아니오</string>
+    <string name="answer_male">남성</string>
+    <string name="answer_female">여성</string>
+    <string name="main_button1">진단</string>
+    <string name="main_button2">생체리듬</string>
+    <string name="main_button3">오늘의 활동</string>
+    <string name="main_button4">시차 가이드</string>
+    <string name="survey_title">자가진단 문진표</string>
+    <string name="result_title">진단 결과</string>
+    <string name="survey_button1">음식</string>
+    <string name="survey_button2">체중</string>
+    <string name="biorhythm_title">생체리듬</string>
+
+    <string name="biorhythm_text1">심박수</string>
+    <string name="biorhythm_text2">혈당</string>
+    <string name="biorhythm_text3">최소혈압</string>
+    <string name="biorhythm_text4">최대혈압</string>
+    <string name="first_survey1">1) 성별(남/녀): </string>
+    <string name="first_survey2">2) 생년(나이): </string>
+    <string name="first_survey3">3) 키(cm): </string>
+    <string name="first_survey5">4) 몸무게(kg): </string>
+    <string name="first_survey6">6) 체질량지수(BMI): </string>
+
+    <string name="women_survey1">1) 마지막 생리일 </string>
+    <string name="women_survey2">2) 현재 임싱 중입니까? </string>
+    <string name="women_survey3">3) 현재 산후조리 중입니까? </string>
+    <string name="women_survey4">4) 현재 갱년기 입니까? </string>
+
+    <string name="main_survey1">1) 흡연을 하십니까? </string>
+    <string name="main_survey2">2) 취침 전에 자주 흡연을 하십니까? </string>
+    <string name="main_survey3">3) 음주를 하십니까? </string>
+    <string name="main_survey4">4) 취침 전에 음주를 하십니까? </string>
+    <string name="main_survey5">5) 평소에 해가 떠 있는 시간대에 하루 15분 이상 외출을 하십니까? </string>
+    <string name="main_survey6">6) 평소에 강도 있는 운동을 하십니까?</string>
+    <string name="main_survey7">7) 평소 우울증을 앓고 있거나, 기분이 저조하거나, 흥미나 재미가 생길 만한 일이 없습니까?</string>
+    <string name="main_survey8">8) 식사를 매일 규칙적인 시간에 합니까?</string>
+    <string name="main_survey9">9) 하루에 식사를 몇 회 정도 합니까? </string>
+    <string name="main_survey10">10) 식사 시간 사이에 간식을 먹습니까? </string>
+    <string name="main_survey11">11) 간식을 먹을 때 규칙적인 시간에 맞추어 먹습니까? </string>
+    <string name="main_survey12">12) 잠에 들기 4시간 전에 음식을 섭취합니까? </string>
+    <string name="main_survey13">13) 카페인이 들어간 음식(커피 등)을 자주 마십니까? </string>
+    <string name="main_survey14">14) 만약 먹는다면, 오후에도 커피를 자주 마십니까? </string>
+    <string name="main_survey15">15) 본인의 수면 시간을 규칙적입니까? </string>
+    <string name="main_survey16">16) 평소에 자주 낮잠을 잡니까? </string>
+    <string name="main_survey17">17) 낮잠을 잔다면 몇 분 정도 잡니까?</string>
+    <string name="main_survey18">20) 다음 병명 중 진단을 맏은 항목에 체크해주세요.</string>
+    <string name="main_survey19">21) 진단을 받지는 않았지만, 추가적으로 증상이 의심되는 항목을 체크해주세요.</string>
+    <string name="survey_choice1">불면증</string>
+    <string name="survey_choice2">과다 수면증(기면증 증상 포함)</string>
+    <string name="survey_choice3">수면 각성 주기장애</string>
+    <string name="survey_choice4">사건 수면(렘(REM) 수면 행동장애, 야경증 포함)</string>
+    <string name="survey_choice5">수면 무호흡/저호흡증</string>
+    <string name="survey_choice6">하지 불안 증후군</string>
+    <string name="survey_choice7">잠에 들기까지의 시간이 오래 걸리며 잠이 들기어렵거나 자주 깨는 증상</string>
+    <string name="survey_choice8">평균적인 시간외에 잠을 너무 많이 자는 증상</string>
+    <string name="survey_choice9">수면 시간이 불규칙적이여서 잠을 자는 도중에 잠에서 깨거나, 얕은 수면이 계속되는 증상</string>
+    <string name="survey_choice10">잠을 자는 중에 신체적으로 이상을 보이는 증상</string>
+    <string name="survey_choice11">수면 중 호흡이 멈추거나 감소해 자주 잠에서 깨는 증상</string>
+    <string name="survey_choice12">잠들기 전에 다리에 불편한 감각 증상이 나타나 수면에 방해가 되는 증상</string>
+
+    <string name="tip1">심혈관계 수술에 좋은 시간</string>
+    <string name="tip2">수면 시 경련 증상</string>
+    <string name="tip3">외로움과 수면</string>
+    <string name="tip4">공복과 수면</string>
+    <string name="tip5">식사와 면역력</string>
+    <string name="tip6">하루 중 감정의 변화</string>
+    <string name="tip7">바이러스 감염과 생체시계</string>
+    <string name="tip8">상처 치유와 생체시계</string>
+    <string name="tip9">약 투약 시간과 빛 노출에 따른 약효</string>
+    <string name="tip10">나이에 따라 달라지는 수면시간</string>
+    <string name="tip11">수면 부족</string>
+    <string name="tip12">장내 미생물 건강</string>
+    <string name="tip13">위식도 역류 질환과 제산제</string>
+    <string name="tip14">심장 질환과 생체시계</string>
+    <string name="tip15">운동하기</string>
+    <string name="tip16">다크서클이 생기는 이유</string>
+    <string name="tip17">아침 식사하기</string>
+    <string name="tip18">아침에 햇빛 쬐기</string>
+    <string name="tip19">수면 전 몸을 따뜻하게 하기</string>
+    <string name="tip20">운동과 수면</string>
+    <string name="tip21">조명과 수면</string>
+    <string name="tip22">억지로 자려고 노력하지 마세요</string>
+    <string name="tip23">수면 관련 불편한 증상 발생 시</string>
+    <string name="tip24">수면 전 목마름</string>
+    <string name="tip25">수면 시 적정 온도/습도</string>
+    <string name="tip26">춘곤증</string>
+    <string name="tip27">계절성 정동 장애(SAD)</string>
+
+
+    <string name="back">이전</string>
+    <string name="next">다음</string>
+    <string name="finish">제출</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect_to_shealth">Connect to Samsung Health</string>
+    <string name="notice">Notice</string>
+    <string name="msg_perm_acquired">All permissions should be acquired</string>
+    <string name="msg_conn_not_available">Connection with Samsung Health is not available</string>
+    <string name="msg_req_install">Please install Samsung Health</string>
+    <string name="msg_req_upgrade">Please upgrade Samsung Health</string>
+    <string name="msg_req_enable">Please enable Samsung Health</string>
+    <string name="msg_req_agree">Please agree to Samsung Health policy</string>
+    <string name="msg_req_available">Please make Samsung Health available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

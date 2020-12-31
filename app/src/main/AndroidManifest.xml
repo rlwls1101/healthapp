@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.capston_project">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.samsung.android.health.permission.read"
+            android:value="com.samsung.health.user_profile;com.samsung.health.step_count;com.samsung.health.food_intake;com.samsung.health.weight;com.samsung.health.heart_rate;com.samsung.health.blood_glucose;com.samsung.health.blood_pressure;com.samsung.health.sleep" />
+
+        <activity
+            android:name="com.example.capston_project.MainActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.Loginloading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.capston_project.UserSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.FirstSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.SecondSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.ThirdSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.FourthSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.FifthSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.WomenSurveyActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.SurveyResult">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.TipResult">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.TipTable">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.ViewPagerAdapter">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.UserProfileActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.biorhythmActivity">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.AddTrip">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.AddFlight">
+        </activity>
+        <activity
+            android:name="com.example.capston_project.ClockView">
+        </activity>
+        <receiver android:name=".BroadcastD"
+            android:enabled="false">
+        <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED">
+
+            </action>
+        </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1051766397329",
+    "firebase_url": "https://login-ca8a9.firebaseio.com",
+    "project_id": "login-ca8a9",
+    "storage_bucket": "login-ca8a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051766397329:android:62e22be7c5751a49502230",
+        "android_client_info": {
+          "package_name": "com.example.capston_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051766397329-i4fvaditsglb91o77spq1e6c58bnhcqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capston_project",
+            "certificate_hash": "db3d85f293abeb265d174f2bda29c993caf83171"
+          }
+        },
+        {
+          "client_id": "1051766397329-q590kg3mggigf80budco2jhjqkaluiqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capston_project",
+            "certificate_hash": "96f6ddad06f6e3f803eb207b3260942057215e0e"
+          }
+        },
+        {
+          "client_id": "1051766397329-nt3orcasohcois05df7hm6cop6hl7as4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqkyA0FpqYbrsQBteoHW6pgUIiFnaU1mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051766397329-nt3orcasohcois05df7hm6cop6hl7as4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

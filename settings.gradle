@@ -1,0 +1,2 @@
+rootProject.name='Capston_Project'
+include ':app', ':samsung-health-service-v1.4.0', ':sdk-v1.0.0'
